@@ -1,0 +1,113 @@
+2023-04-15T11:58:33.525-05:00  INFO 3136 --- [restartedMain] com.onpe.ExaFinalOnpeApplication         : Starting ExaFinalOnpeApplication using Java 17.0.6 with PID 3136 (D:\Lenguaje de Programacion 5R1 2023\Spring Tools for Eclipse\Exa_Final_Onpe\target\classes started by jeamp in D:\Lenguaje de Programacion 5R1 2023\Spring Tools for Eclipse\Exa_Final_Onpe)
+2023-04-15T11:58:33.527-05:00  INFO 3136 --- [restartedMain] com.onpe.ExaFinalOnpeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-15T11:58:33.554-05:00  INFO 3136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-15T11:58:33.554-05:00  INFO 3136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-15T11:58:33.877-05:00  INFO 3136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-15T11:58:33.878-05:00  INFO 3136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-15T11:58:33.896-05:00  INFO 3136 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.onpe.repository.IGrupoVotacion; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-15T11:58:33.896-05:00  INFO 3136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2023-04-15T11:58:33.902-05:00  INFO 3136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-15T11:58:33.903-05:00  INFO 3136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-15T11:58:33.917-05:00  INFO 3136 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2023-04-15T11:58:34.282-05:00  INFO 3136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-15T11:58:34.290-05:00  INFO 3136 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-15T11:58:34.290-05:00  INFO 3136 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-15T11:58:34.342-05:00  INFO 3136 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring embedded WebApplicationContext
+2023-04-15T11:58:34.343-05:00  INFO 3136 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 787 ms
+2023-04-15T11:58:34.455-05:00  INFO 3136 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-15T11:58:34.503-05:00  INFO 3136 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-15T11:58:34.720-05:00  INFO 3136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-15T11:58:34.890-05:00  INFO 3136 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 4e3bf154-6811-4f21-afaa-86b97087e89c
+2023-04-15T11:58:34.891-05:00  INFO 3136 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-15T11:58:34.919-05:00  INFO 3136 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-15T11:58:35.350-05:00  INFO 3136 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-15T11:58:35.357-05:00  INFO 3136 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-15T11:58:35.515-05:00  WARN 3136 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-15T11:58:35.592-05:00  INFO 3136 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-15T11:58:35.710-05:00  WARN 3136 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-04-15T11:58:35.743-05:00  INFO 3136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-15T11:58:35.768-05:00  INFO 3136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/onpe'
+2023-04-15T11:58:35.774-05:00  INFO 3136 --- [restartedMain] com.onpe.ExaFinalOnpeApplication         : Started ExaFinalOnpeApplication in 2.464 seconds (process running for 2.908)
+2023-04-15T11:59:05.586-05:00  INFO 3136 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-15T11:59:05.586-05:00  INFO 3136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-15T11:59:05.586-05:00  INFO 3136 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-15T12:00:24.460-05:00  INFO 3136 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-15T12:00:24.465-05:00  INFO 3136 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-15T12:00:24.466-05:00  INFO 3136 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-15T12:00:24.469-05:00  INFO 3136 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-15T12:00:24.471-05:00  INFO 3136 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-15T12:00:24.472-05:00  INFO 3136 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-15T12:00:33.099-05:00  INFO 12092 --- [restartedMain] com.onpe.ExaFinalOnpeApplication         : Starting ExaFinalOnpeApplication using Java 17.0.6 with PID 12092 (D:\Lenguaje de Programacion 5R1 2023\Spring Tools for Eclipse\Exa_Final_Onpe\target\classes started by jeamp in D:\Lenguaje de Programacion 5R1 2023\Spring Tools for Eclipse\Exa_Final_Onpe)
+2023-04-15T12:00:33.101-05:00  INFO 12092 --- [restartedMain] com.onpe.ExaFinalOnpeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-15T12:00:33.125-05:00  INFO 12092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-15T12:00:33.125-05:00  INFO 12092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-15T12:00:33.429-05:00  INFO 12092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-15T12:00:33.430-05:00  INFO 12092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-15T12:00:33.447-05:00  INFO 12092 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.onpe.repository.IGrupoVotacion; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-15T12:00:33.447-05:00  INFO 12092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2023-04-15T12:00:33.453-05:00  INFO 12092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-15T12:00:33.454-05:00  INFO 12092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-15T12:00:33.468-05:00  INFO 12092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2023-04-15T12:00:33.796-05:00  INFO 12092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-15T12:00:33.802-05:00  INFO 12092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-15T12:00:33.802-05:00  INFO 12092 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-15T12:00:33.845-05:00  INFO 12092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring embedded WebApplicationContext
+2023-04-15T12:00:33.845-05:00  INFO 12092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 720 ms
+2023-04-15T12:00:33.942-05:00  INFO 12092 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-15T12:00:33.972-05:00  INFO 12092 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-15T12:00:34.125-05:00  INFO 12092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-15T12:00:35.341-05:00  INFO 12092 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: b8bcee42-3cb3-4daa-ba12-fdca4d3b86ed
+2023-04-15T12:00:35.343-05:00  INFO 12092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-15T12:00:35.365-05:00  INFO 12092 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-15T12:00:36.038-05:00  INFO 12092 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-15T12:00:36.045-05:00  INFO 12092 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-15T12:00:36.196-05:00  WARN 12092 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-15T12:00:36.273-05:00  INFO 12092 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-15T12:00:36.535-05:00  WARN 12092 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-04-15T12:00:36.571-05:00  INFO 12092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-15T12:00:36.593-05:00  INFO 12092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/onpe'
+2023-04-15T12:00:36.599-05:00  INFO 12092 --- [restartedMain] com.onpe.ExaFinalOnpeApplication         : Started ExaFinalOnpeApplication in 3.714 seconds (process running for 4.155)
+2023-04-15T12:01:16.396-05:00  INFO 12092 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-15T12:01:16.402-05:00  INFO 12092 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-15T12:01:16.406-05:00  INFO 12092 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-15T12:01:16.408-05:00  INFO 12092 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-15T12:01:16.411-05:00  INFO 12092 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-15T12:01:21.574-05:00  INFO 7952 --- [restartedMain] com.onpe.ExaFinalOnpeApplication         : Starting ExaFinalOnpeApplication using Java 17.0.6 with PID 7952 (D:\Lenguaje de Programacion 5R1 2023\Spring Tools for Eclipse\Exa_Final_Onpe\target\classes started by jeamp in D:\Lenguaje de Programacion 5R1 2023\Spring Tools for Eclipse\Exa_Final_Onpe)
+2023-04-15T12:01:21.575-05:00  INFO 7952 --- [restartedMain] com.onpe.ExaFinalOnpeApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-15T12:01:21.599-05:00  INFO 7952 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-15T12:01:21.599-05:00  INFO 7952 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-15T12:01:21.901-05:00  INFO 7952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-15T12:01:21.902-05:00  INFO 7952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-15T12:01:21.919-05:00  INFO 7952 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.onpe.repository.IGrupoVotacion; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-15T12:01:21.919-05:00  INFO 7952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2023-04-15T12:01:21.924-05:00  INFO 7952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-15T12:01:21.925-05:00  INFO 7952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-15T12:01:21.938-05:00  INFO 7952 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2023-04-15T12:01:22.263-05:00  INFO 7952 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-15T12:01:22.269-05:00  INFO 7952 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-15T12:01:22.269-05:00  INFO 7952 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-15T12:01:22.312-05:00  INFO 7952 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring embedded WebApplicationContext
+2023-04-15T12:01:22.312-05:00  INFO 7952 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 713 ms
+2023-04-15T12:01:22.408-05:00  INFO 7952 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-15T12:01:22.436-05:00  INFO 7952 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-15T12:01:22.590-05:00  INFO 7952 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-15T12:01:23.670-05:00  INFO 7952 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e656baee-06fd-49ac-b75a-7c59899230fc
+2023-04-15T12:01:23.672-05:00  INFO 7952 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-15T12:01:23.692-05:00  INFO 7952 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-15T12:01:24.361-05:00  INFO 7952 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-15T12:01:24.367-05:00  INFO 7952 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-15T12:01:24.516-05:00  WARN 7952 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-15T12:01:24.592-05:00  INFO 7952 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-15T12:01:24.844-05:00  WARN 7952 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-04-15T12:01:24.878-05:00  INFO 7952 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-15T12:01:24.902-05:00  INFO 7952 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/onpe'
+2023-04-15T12:01:24.908-05:00  INFO 7952 --- [restartedMain] com.onpe.ExaFinalOnpeApplication         : Started ExaFinalOnpeApplication in 3.553 seconds (process running for 3.992)
+2023-04-15T12:01:40.550-05:00  INFO 7952 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-15T12:01:40.551-05:00  INFO 7952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-15T12:01:40.551-05:00  INFO 7952 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-15T12:02:33.314-05:00  INFO 7952 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-15T12:02:33.320-05:00  INFO 7952 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-15T12:02:33.321-05:00  INFO 7952 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-15T12:02:33.325-05:00  INFO 7952 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-15T12:02:33.327-05:00  INFO 7952 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-15T12:02:33.330-05:00  INFO 7952 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
