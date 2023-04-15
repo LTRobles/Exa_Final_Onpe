@@ -15,11 +15,11 @@ public void addCorsMappings (CorsRegistry registry) {
 	registry.addMapping("/**");
 }
 	
-@GetMapping ("/actas")
+@GetMapping ("/index")
 
 public String index() {
 	
-	return "actas";
+	return "index";
 }
 
 }
