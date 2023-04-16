@@ -41,6 +41,13 @@ public String actas_info() {
 	
 	return "actas_info";
 }
+
+@GetMapping ("/general")
+
+public String general() {
+	
+	return "general";
+}
 @Autowired
 private IGrupoVotacionService iGrupoVotacionService;
 
